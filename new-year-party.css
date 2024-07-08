@@ -328,7 +328,9 @@ button {
 .sixth-section {
     width: 1320px;
     height: 986.07px;
-    background-color: darkgray;
+    
+    position: relative;
+   
 }
 
 .sixth-section-detail {
@@ -363,4 +365,83 @@ button {
     font-size: 72px;
     font-weight: 900;
     color: red;
+}
+
+.rectangle {
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
+
+.gift-box {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 400px;
+    align-items: center;
+    
+}
+
+.gift-box-img {
+    width: 500px;
+    margin-top: 350px;
+}
+
+.discount-container {
+    margin-top: 100px;
+    
+}
+
+/* portfolio styles */
+.portfolio-container {
+    width: 1320px;
+    height: 1163px;
+    margin: 120px auto 0;
+    
+}
+
+.portfolio-text-content h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.portfolio-text-content h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.portfolio-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.item {
+    width: 424px;
+    height: 450px;
+}
+
+.portfolio-items {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
 }
